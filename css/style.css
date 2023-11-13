@@ -127,6 +127,15 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+
+ /* CASO BONUS */
+ @media screen and (max-width:1160px) {
+    .container{
+        width: 100%;
+    }
+}
 /* CASO TABLET */
 @media screen and (max-width:768px) {
     .container{
@@ -167,3 +176,5 @@ img {
         background-color:black ;
         padding: 60px 40px;
 }
+
+
